@@ -14,7 +14,7 @@ console.info("Connected to MongoDB");
 
 
 const mongoDB = mongoClient.db("");
-const colleccion = mongoDB.collection("");
+//const colleccion = mongoDB.collection("");
 
 
 const handler = async (req: Request): Promise<Response> => {
