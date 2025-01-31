@@ -1,4 +1,4 @@
-/*
+
 import { MongoClient } from "mongodb";
 
 const MONGO_URL = Deno.env.get("MONGO_URL");
@@ -14,7 +14,7 @@ console.info("Connected to MongoDB");
 
 
 const mongoDB = mongoClient.db("");
-*/
+const colleccion = mongoDB.collection("");
 
 
 const handler = async (req: Request): Promise<Response> => {
